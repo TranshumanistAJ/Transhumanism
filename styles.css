@@ -28,7 +28,7 @@ nav ul li a {
 }
 /* add hover with a suitable color to add flavour to the user's experience */
 nav ul li a:hover {
-    color: #767fa0;
+    color: lightblue;
 }
 
 .header-image {
