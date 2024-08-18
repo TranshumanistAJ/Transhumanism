@@ -158,30 +158,34 @@ cite {
 
 /* Style CSS for the second html page */
 
+/* Style for the img element with ID #childimage1 inside the #full-definition div */
+#full-definition #childimage1 {
+    border: 1px solid #ddd;
+    border-radius: 4px; /* Optional: Rounds corners */
+    height: 100px; /* Adjust height as needed */
+    width: 100px; /* Adjust width as needed */
+    opacity: 0.5;
+    display: block; /* Ensures the image is a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+}
 
-#full-definition  {
+/* Style for the h3 element with ID #SecondPageWhatIsTranshumanism inside the #full-definition div */
+#full-definition #SecondPageWhatIsTranshumanism {
     font-size: 2em;
     color: #65DCE0;
     margin-bottom: 15px;
-    font-weight: bold; /* explore different font-weights*/
-    text-align: center;
+    font-weight: bold;
     letter-spacing: 1px;
-
+    text-align: center; 
 }
 
-#full-definition  {
+/* Style for the p element with ID #ParagraphOfSecondPageWhatIsTranshumanism inside the #full-definition div */
+#full-definition #ParagraphOfSecondPageWhatIsTranshumanism {
     font-size: 1.1em;
-    color:#555;
+    color: #555;
     line-height: 1.8;
     margin-bottom: 20px;
-    text-align: center;
-
+    text-align: center; 
 }
 
-#childimage1 {
-    border: 1px solid #ddd;
-    /* border-radius: 4px; */
-    height: 20px;
-    width: 20px;
-    opacity: 0.5;
-}
+
