@@ -169,7 +169,7 @@ cite {
 
 }
 
-#full-definition p {
+#full-definition  {
     font-size: 1.1em;
     color:#555;
     line-height: 1.8;
@@ -178,11 +178,11 @@ cite {
 
 }
 
-#childimage1 img {
+#childimage1 {
     border: 1px solid #ddd;
     border-radius: 4px;
     height: 20px;
-    padding: 5px;
+    
     width: 20px;
     opacity: 0.5;
 }
