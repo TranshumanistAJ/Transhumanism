@@ -159,7 +159,7 @@ cite {
 /* Style CSS for the second html page */
 
 
-#full-definition h3 {
+#full-definition  {
     font-size: 2em;
     color: #65DCE0;
     margin-bottom: 15px;
@@ -180,9 +180,8 @@ cite {
 
 #childimage1 {
     border: 1px solid #ddd;
-    border-radius: 4px;
+    /* border-radius: 4px; */
     height: 20px;
-    
     width: 20px;
     opacity: 0.5;
 }
