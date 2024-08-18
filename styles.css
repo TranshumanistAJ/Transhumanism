@@ -52,7 +52,7 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
-
+/* add style of font to suit a decoration of a quote , inspired by https://www.w3schools.com/tags/tag_blockquote.asp */
 blockquote {
     font-style: italic;
     color: #555;
@@ -81,7 +81,7 @@ cite {
     text-align: center;
     color: #333;
 }
-/* Centralize the text for better user's experience*/
+/* Centralize the text for to pay the user's attention*/
 .article {
     display: flex;
     align-items: center;
@@ -105,7 +105,7 @@ cite {
 }
 
 .read-more {
-    color: #007BFF;
+    color: #bbecf3;
     font-weight: bold;
     text-decoration: none;
 }
