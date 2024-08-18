@@ -68,7 +68,7 @@ cite {
     color: #333;
     margin-top: 10px;
 }
-
+ /*Make subtle color difference between background color and border for better user experience */
 #public-target {
     background-color: #fff;
     border: 1px solid #ccc;
@@ -81,7 +81,7 @@ cite {
     text-align: center;
     color: #333;
 }
-
+/* Centralize the text for better user's experience*/
 .article {
     display: flex;
     align-items: center;
@@ -125,7 +125,7 @@ cite {
     }
 }
 
-/* Font styles and colors for sections */
+/* Make Font styles and colors for sections */
 #home h2, #about h2, #articles h2, #contact h2 {
     font-family: 'Georgia', serif;
     color: #88A1FA;
@@ -138,3 +138,50 @@ cite {
     text-align: justify;
 }
 
+/* Change for Welcome text */
+.welcome-text {
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* Style for section text for better look */
+.section-text {
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/* Style CSS for the second html page */
+
+
+#full-definition h3 {
+    font-size: 2em;
+    color: #65DCE0;
+    margin-bottom: 15px;
+    font-weight: bold; /* explore different font-weights*/
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+
+#full-definition p {
+    font-size: 1.1em;
+    color:#555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+
+}
+
+#full-definition img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
