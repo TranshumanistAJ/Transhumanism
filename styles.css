@@ -57,6 +57,21 @@ footer {
 footer a {
     color: #fff !important;
     text-decoration: none; }
+
+    ul.social-links {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 10px; /* Adjust the gap between icons as desired, inspired by AI*/
+    }
+    
+    ul.social-links li {
+        margin: 0;
+    }
+    
+
+    
 /* add style of font to suit a decoration of a quote , inspired by https://www.w3schools.com/tags/tag_blockquote.asp */
 blockquote {
     font-style: italic;
