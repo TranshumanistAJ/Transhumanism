@@ -12,6 +12,14 @@ header {
     text-align: center;
     
 }
+.top-right-nav {
+    
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 20px; /* Space between this nav and the title */
+  
+}
+
 
 nav ul {
     list-style-type: none;
