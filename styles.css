@@ -63,12 +63,13 @@ footer a {
         padding: 0;
         margin: 0;
         display: flex;
-        gap: 10px; /* Adjust the gap between icons as desired, inspired by AI*/
+        gap: 10px; /* Adjust the gap between icons as needed */
     }
     
     ul.social-links li {
         margin: 0;
     }
+    
     
 
     
