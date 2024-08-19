@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sign Up for Transhumanism and Longevity Updates">
+    <title>Sign Up - Transhumanism and Longevity</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- New Top Right Navigation -->
+        <nav class="top-right-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+        
+        <h1>Sign Up for Updates</h1>
+    </header>
+
+    <main>
+        <!-- This section is to allow users to sign up by creating an account in our website-->
+        <section id="signup">
+            <h2>Create Your Account</h2>
+            <form class="signup-form" action="submit_signup.php" method="post">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+
+                <button type="submit">Sign Up</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Transhumanism and Longevity</p>
+        <ul class="social-links">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Follow Us on Facebook (Opens in a new tab)">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://x.com/" target="_blank" rel="noopener" aria-label="Follow Us on X (Opens in a new tab)">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Follow Us on YouTube (Opens in a new tab)">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
+
