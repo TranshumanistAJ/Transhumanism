@@ -10,8 +10,7 @@ header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
-    position: fixed;
-    z-index: 99;
+    
 }
 
 nav ul {
@@ -53,7 +52,11 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
+    
 }
+footer a {
+    color: #fff !important;
+    text-decoration: none; }
 /* add style of font to suit a decoration of a quote , inspired by https://www.w3schools.com/tags/tag_blockquote.asp */
 blockquote {
     font-style: italic;
