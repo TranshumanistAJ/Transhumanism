@@ -227,28 +227,6 @@ cite {
     background-color: #0056b3;
 }
 
-/* Gallery Section */
-#photos {
-    display: flex;          /* Flexbox layout to align images in a row */
-    flex-wrap: wrap;        /* Allow images to wrap onto the next line */
-    justify-content: center; /* Center images horizontally */
-    gap: 20px;              /* Space between images */
-    padding: 20px;          /* Padding around the gallery */
-}
 
-#photos img {
-    max-width: 100%;        
-    height: auto;           
-    border-radius: 8px;     /* inspired by the lesson  */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* nice touch inspired by a friend */
-    object-fit: cover;      /* inspired by AI */
-}
-
-/* inspired by an e.g in AI */
-@media (max-width: 768px) {
-    #photos img {
-        width: 100%;        /* I make Image take up full width on smaller screens */
-    }
-}
 
 

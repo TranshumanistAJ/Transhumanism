@@ -3,14 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!--meta tags for search engine-->
-    <meta name="description"  content="transhumanism-longevity in Germany, immortality, Eternity">
-    <meta name="keywords" content="transhuamnism and longevity, immortality, afterdeath, Transhumanism in Germany">
-    <title>Transhumanism and Longevity</title>
+    <meta name="description" content="transhumanism-longevity in Germany, immortality, Eternity">
+    <meta name="keywords" content="transhumanism and longevity, immortality, afterdeath, Transhumanism in Germany">
+    <title>Gallery - Transhumanism and Longevity</title>
     <link rel="stylesheet" href="assets/css/styles.css">
+    <!--I add styles for gallery here for faster access to it, css file is now way too long-->
+    <style>
+        #photos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        #photos img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            /* box-shadow and object-fit are inspired by a friends of mine*/
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            object-fit: cover;
+        }
+
+        @media (max-width: 768px) {
+            #photos img {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
-    <!--This header is the official name of the website, and internal links with an image-->
+    <!--quicker access to the other webpages, I add the gallery itself intentionally-->
     <header>
         <nav class="top-right-nav">
             <ul>
@@ -21,54 +45,43 @@
         </nav>
         <h1>Transhumanism and Longevity</h1>
         <nav>
-            <ul>
-                </ul>
-                <p id:"gallery-paragraph">Explore the visual journey of human evolution, where technology meets biology to transcend the boundaries of life as we know it.
-                    Our gallery captures the essence of transhumanism and the pursuit of longevity, illustrating the groundbreaking advancements shaping our future.</p>
-            
+            <p id="gallery-paragraph">Explore the visual journey...</p>
         </nav>
     </header>
     
     <main>
         <section id="gallery">
             <div id="photos">
-                <img src="assets/images/g1image.jpg" alt="An image of one of our staf in one of our experimental facility">
+                <img src="assets/images/g1image.jpg" alt="An image of one of our staff in one of our experimental facility">
                 <img src="assets/images/g2image.jpg" alt="One of our under-experiment transhumanist robot">
                 <img src="assets/images/g3image.jpg" alt="A 3D of one of our transhumanist robots">
                 <img src="assets/images/g6image.jpg" alt="Staff member">
                 <img src="assets/images/g4image.jpg" alt="Transhumanist brain">
                 <img src="assets/images/g5image.jpg" alt="Samples for cellular enhancement">
-
             </div>
         </section>
-        
     </main>
-    <!--This footer contains site information, copyright notice, and social media links-->
+    
     <footer>
         <p>© 2024 Transhumanism and Longevity</p>
-        <!--Add the style here for method variety and faster access to it-->
         <ul class="social-links">
             <li>
                 <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Follow Us on Facebook (Opens in a new tab)">
                     <i class="fa-brands fa-facebook"></i>
                 </a>
             </li>
-        
             <li>
                 <a href="https://x.com/" target="_blank" rel="noopener" aria-label="Follow Us on X (Opens in a new tab)">
                     <i class="fa-brands fa-x-twitter"></i>
                 </a>
             </li>
-            
             <li>
                 <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Follow Us on YouTube (Opens in a new tab)">
                     <i class="fa-brands fa-youtube"></i>
                 </a>
             </li>
         </ul>
-        
     </footer>
-    <!--Font awesome Kit-->
     <script src="https://kit.fontawesome.com/adfe5b39e4.js" crossorigin="anonymous"></script>
 </body>
 </html>
