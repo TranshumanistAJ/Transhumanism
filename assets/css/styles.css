@@ -119,16 +119,16 @@ cite {
 }
 
 .article h3 {
-    margin: 0;
+    margin: 0 20px 0 0; /* I added 20px space to the right of this element */
     color: #333;
-    font-size: 17.5px
-
+    font-size: 17.5px;
 }
+
 
 .article p {
     margin: 5px 0;
     color: #555;
-    font-size-adjust: justify;
+    font-size: 90% ;
 }
 
 .read-more {
