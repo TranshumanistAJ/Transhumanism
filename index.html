@@ -24,8 +24,9 @@
             background-color: #7ca2b1;
             border-radius: 4px;
             transition: background-color 0.3s ease, transform 0.3s ease;
-            margin-top: 14px; /* Space above the button . I changed the space*/
+            margin-top: 20px; /* Space above the button . I changed the space*/
             text-align: center;
+            margin-left: 50px;
         }
 
         .read-more-button:hover {
@@ -113,34 +114,62 @@
         <!--This section is for inquires or further questions as we are open for any philosophical, scientific or atheical questions -->
         <section id="contact">
             <h2>Contact</h2>
-            <p class="section-text">and longevity, please contact us at <a href="mailto:https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjMlqWW7IOIAxXInoMHHS5RFd8YABAAGgJlZg&co=1&ase=2&gclid=CjwKCAjw_ZC2BhAQEiwAXSgClmuqbcEjqWfKGsZOtALNZTb8Z8VYg0zxNMyc0sCyFvramTpZful6ZhoClR4QAvD_BwE&ohost=www.google.com&cid=CAESVeD29rCACAyaGOFRl5FeIqZnWn2_exgTW4WXIAHdc9Lsxl0Y881EEeptcZuKmWKhxeZXPAKXAcF7WSl-q_O5egZzhV5VlsM8AFN5k1CANWL05zByOS8&sig=AOD64_3vqds20iAc27es9aPwNw4bTGdE2w&q&nis=4&adurl&ved=2ahUKEwifxp-W7IOIAxUTi_0HHQQeJn8Q0Qx6BAgWEAE">codeinstitute.com</a>. We are always eager to hear from individuals who share our passion for advancing human potential and exploring the future of technology and biology.</p>
+            <!--clickable email inspired by a friends of mine and AI-->
+            <p class="section-text">For questions or inquires: <a href="mailto:https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjMlqWW7IOIAxXInoMHHS5RFd8YABAAGgJlZg&co=1&ase=2&gclid=CjwKCAjw_ZC2BhAQEiwAXSgClmuqbcEjqWfKGsZOtALNZTb8Z8VYg0zxNMyc0sCyFvramTpZful6ZhoClR4QAvD_BwE&ohost=www.google.com&cid=CAESVeD29rCACAyaGOFRl5FeIqZnWn2_exgTW4WXIAHdc9Lsxl0Y881EEeptcZuKmWKhxeZXPAKXAcF7WSl-q_O5egZzhV5VlsM8AFN5k1CANWL05zByOS8&sig=AOD64_3vqds20iAc27es9aPwNw4bTGdE2w&q&nis=4&adurl&ved=2ahUKEwifxp-W7IOIAxUTi_0HHQQeJn8Q0Qx6BAgWEAE">codeinstitute.com</a></p>
         </section>
     </main>
-    <!--This footer contains site information, copyright notice, and social media links-->
+    <!--This footer contains site information, copyright notice, and social media links, css is embedded for faster access to save time-->
     <footer>
+        <style>
+            footer {
+                background-color: #333;
+                color: #fff;
+                text-align: center;
+                padding: 10px 0;
+            }
+    
+            footer a {
+                color: #fff !important;
+                text-decoration: none;
+            }
+    
+            ul.social-links {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                gap: 10px; /* Adjust the gap between icons as I design it */
+                justify-content: center;
+            }
+    
+            ul.social-links li {
+                margin: 0;
+            }
+    
+            ul.social-links li a i {
+                font-size: 3em; /* Adjust icon size for better user experience */
+            }
+        </style>
         <p>© 2024 Transhumanism and Longevity</p>
-        <!--Add the style here for method variety and faster access to it-->
         <ul class="social-links">
             <li>
                 <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Follow Us on Facebook (Opens in a new tab)">
                     <i class="fa-brands fa-facebook"></i>
                 </a>
             </li>
-        
             <li>
                 <a href="https://x.com/" target="_blank" rel="noopener" aria-label="Follow Us on X (Opens in a new tab)">
                     <i class="fa-brands fa-x-twitter"></i>
                 </a>
             </li>
-            
             <li>
                 <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Follow Us on YouTube (Opens in a new tab)">
                     <i class="fa-brands fa-youtube"></i>
                 </a>
             </li>
         </ul>
-        
     </footer>
+    
     <!--Font awesome Kit-->
     <script src="https://kit.fontawesome.com/adfe5b39e4.js" crossorigin="anonymous"></script>
 </body>
