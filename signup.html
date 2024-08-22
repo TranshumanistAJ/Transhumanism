@@ -24,58 +24,39 @@
     </header>
 
     <main>
-        <!-- This section is to allow users to sign up by creating an account in our website-->
         <section id="signup">
-            
-            <form class="signup-form" action="submit_signup.php" method="post">
-                <label for="name">Full Name</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" required>
-
-                <label for="confirm-password">Confirm Password</label>
-                <input type="password" id="confirm-password" name="confirm-password" required>
-
-                <button type="submit">Sign Up</button>
+            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2><i class="fa-solid fa-heartbeat"></i>Create Username:</h2>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first_name" id="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last_name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="email" name="email_address" id="email-address" class="text-input" required>
+                <br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="road">Road</label>
+                        <input type="radio" name="running_preference" id="road" value="road" required checked>
+                    </div>
+                    <div>
+                        <label for="trail">Trail</label>
+                        <input type="radio" name="running_preference" id="trail" value="trail" required>
+                    </div>
+                    <div>
+                        <label for="both">Both</label>
+                        <input type="radio" name="running_preference" id="both" value="both" required>
+                    </div>
+                </div>
+                <button type="submit" class="join-button">submit</button>
             </form>
         </section>
     </main>
 
     <footer>
-        <style>
-            footer {
-                background-color: #333;
-                color: #fff;
-                text-align: center;
-                padding: 10px 0;
-            }
-    
-            footer a {
-                color: #fff !important;
-                text-decoration: none;
-            }
-    
-            ul.social-links {
-                list-style: none;
-                padding: 0;
-                margin: 0;
-                display: flex;
-                gap: 10px; /* Adjust the gap between icons as I design it */
-                justify-content: center;
-            }
-    
-            ul.social-links li {
-                margin: 0;
-            }
-    
-            ul.social-links li a i {
-                font-size: 1.5em; /* Adjust icon size for better user experience */
-            }
-        </style>
+       
         <p>© 2024 Transhumanism and Longevity</p>
         <ul class="social-links">
             <li>
