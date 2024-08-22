@@ -1,76 +1,51 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
+    background: #333;
+    color: white;
+    padding: 20px;
     text-align: center;
-    
-}
-.top-right-nav {
-    
-        display: flex;
-        justify-content: flex-end;
-        margin-bottom: 20px; /* Space between this nav and the title */
-  
+    position: relative;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
+header h1 {
+    margin: 0;
+    font-size: 2em;
 }
 
-footer a {
-    color: #fff !important;
-    text-decoration: none;
+nav {
+    margin-bottom: 20px;
 }
 
-ul.social-links {
+nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
-    gap: 10px; /* Adjust the gap between icons as I design it */
-    justify-content: center;
-}
-
-ul.social-links li {
-    margin: 0;
-}
-
-ul.social-links li a i {
-    font-size: 1.5em; /* Adjust icon size for better user experience */
-}
-
-
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin-right: 15px;
 }
 
 nav ul li a {
-    color: #fff;
     text-decoration: none;
-}
-/* add hover with a suitable color to add flavour to the user's experience */
-nav ul li a:hover {
-    color: lightblue;
+    color: white;
+    font-weight: bold;
 }
 
-.header-image {
+nav ul li a:hover {
+    color: #ddd;
+}
+
+header .header-image, .hero img {
     max-width: 100%;
     height: auto;
     display: block;
@@ -79,215 +54,320 @@ nav ul li a:hover {
 
 main {
     padding: 20px;
+    background: white;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-section {
-    margin-bottom: 20px;
+h2, h3 {
+    color: #333;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.4em;
     text-align: center;
-    padding: 10px 0;
-    
 }
-footer a {
-    color: #fff !important;
-    text-decoration: none; }
-     
-    #signup {
 
-        background-size: cover;
-        background-position: 75%;
-        padding: 20px 10% 0 10%;
-        flex-grow: 1;
-    }
-    
-    #signup-form {
-        color: #ffffff;
-        background-color: rgba(60, 60, 60, 0.6);
-        padding: 30px;
-    }
-    
-    #signup-form>h2 {
-        color: #fafafa;
-        margin-bottom: 20px;
-    }
-    
-    .text-input {
-        background: transparent;
-        color: #fafafa;
-        width: 100%;
-        height: 25px;
-        margin: 5px 0 20px 0;
-        border: 1px solid #fafafa;
-        border-radius: 2px;
-        padding: 0 5px;
-    }
-    
-    .radio-buttons {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .join-button {
-        margin-top: 20px;
-        border-radius: 2px;
-        padding: 15px 32px;
-        font-size: 100%;
-        background-color: #454b1b;
-        color: #fafafa;
-    }
-    
-    /* Media query: tablets and larger (768px and up) */
-    @media screen and (min-width: 768px) {
-        
-    
-        /* Form */
-        #signup {
-            background-position: center;
-            position: relative;
-        }
-    
-        #signup-form {
-            max-width: 400px;
-            position: absolute;
-            left: 10%;
-            top: 150px;
-        }
-    
-        .text-input:hover {
-            border-color: #f16c6b;
-        }
-    
-        .join-button:hover {
-            background-color: #fafafa;
-            color: #454b1b;
-        }
-    } 
+p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+}
 
-    footer a {
-        color: #fff !important;
-        text-decoration: none;
-    }
-   
-    
-/* add style of font to suit a decoration of a quote , inspired by https://www.w3schools.com/tags/tag_blockquote.asp */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    border: 0;
+    height: 2px;
+    background: #ccc;
+    margin:50px 0;
+}
+
+article img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border:#555;
+}
+
 blockquote {
     font-style: italic;
     color: #555;
-    border-left: 4px solid #ccc;
-    padding-left: 10px;
-    margin: 20px auto;
-    max-width: 600px;
+    padding: 10px;
+    border-left: 5px solid #007bff;
+    margin: 20px 0;
+}
+
+.author {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.author h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.author p {
+    font-size: 1em;
+    color: #666;
 }
 
 cite {
     display: block;
-    text-align: right;
-    color: #333;
-    margin-top: 10px;
-}
- /*Make subtle color difference between background color and border for better user experience */
-#public-target {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 20px;
-    max-width: 800px;
-    margin: 20px auto;
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #777;
 }
 
-#public-target h2 {
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
     text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+.social-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.social-links a:hover {
+    color: #ddd;
+}
+
+/* Specific Styles for index.html */
+.hero {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero h2 {
+    font-size: 2em;
     color: #333;
 }
-/* Centralize the text for to pay the user's attention*/
-.article {
+
+.hero p {
+    font-size: 1.2em;
+}
+
+/* Specific Styles for gallery.html */
+.gallery-container {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.gallery-item {
+    flex: 1 1 calc(25% - 20px);
+    margin: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 5px solid #007bff;
+}
+
+/* Specific Styles for signup.html */
+#signup {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#signup h2 {
+    font-size: 1.5em;
     margin-bottom: 20px;
 }
 
-.article img {
-    max-width: 150px;
-    height: auto;
-    margin-right: 20px;
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
 }
 
-.article h3 {
-    margin: 0 20px 0 0; /* I added 20px space to the right of this element */
-    color: #333;
-    font-size: 17.5px;
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
 }
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.radio-buttons div {
+    margin-bottom: 10px;
+}
+
+.join-button {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.join-button:hover {
+    background: #0056b3;
+}
+
+/* Specific Styles for articles.html */
+.article-section {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.article-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    text-align: center;
+    
+
+}
+
+.article-section p {
+    font-size: 1.1em;
+    text-align: center;
+    
+
+}
+
+.article {
+    margin-bottom: 20px;
+}
+
+/* Ensure responsive images with !important */
+.article-img {
+    max-width: 100% !important; /* Force the image to not exceed its container width */
+    height: auto !important;    /* Maintain aspect ratio */
+    display: block !important;  /* Remove inline spacing issues */
+    margin: 0 auto !important;  /* Center the image horizontally */
+}
+
+/* Additional styles with !important */
+.article-img {
+    overflow-clip-margin: content-box !important; /* Clip margin adjustments */
+    overflow: clip !important; /* Control overflow behavior */
+}
+
+/* Border styling, if needed */
+.article-img {
+    border-bottom: 3px solid #007bff !important; /* Border styling */
+    margin-bottom: 10px !important; /* Margin below the image */
+}
+
+
+
 
 
 .article p {
-    margin: 5px 0;
-    color: #555;
-    font-size: 90% ;
+    font-size: 1em;
+    text-align: center;
 }
 
-.read-more {
-    color: #88A1FA;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.read-more:hover {
-    text-decoration: underline;
-}
-
+/* Responsive Styles */
 @media (max-width: 768px) {
-    .article {
-        flex-direction: column;
+    nav ul {
         text-align: center;
+        padding: 0;
     }
 
-    .article img {
-        margin: 0 auto 10px;
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .gallery-item {
+        flex: 1 1 calc(50% - 20px);
+    }
+
+    .hero h2 {
+        font-size: 1.5em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+
+    .article-section h2 {
+        font-size: 1.5em;
+    }
+
+    .article h3 {
+        font-size: 1.3em;
+    }
+
+    .join-button {
+        padding: 8px 16px;
+        font-size: 0.9em;
     }
 }
 
-/* Make Font styles and colors for sections */
-#home h2, #about h2, #articles h2, #contact h2 {
-    font-family: 'Georgia', serif;
-    color: #88A1FA;
-    text-align: center;
+@media (max-width: 480px) {
+    .gallery-item {
+        flex: 1 1 100%;
+    }
+
+    .hero h2 {
+        font-size: 1.2em;
+    }
+
+    .hero p {
+        font-size: 0.9em;
+    }
+
+    .article-section h2 {
+        font-size: 1.2em;
+    }
+
+    .article h3 {
+        font-size: 1.2em;
+    }
 }
 
-#home p, #about p, #articles p, #contact p {
-    font-family: 'Verdana', sans-serif;
-    color: #333;
-    text-align: justify;
-}
 
-/* Change for Welcome text */
-.welcome-text {
-    font-weight: bold;
-    text-align: center;
-    color: #333;
-    margin: 0 auto;
-    max-width: 800px;
-}
 
-/* Style for section text for better look */
-.section-text {
-    font-weight: bold;
-    text-align: center;
-    color: #333;
-    margin: 0 auto;
-    max-width: 800px;
-}
-
-/* Main content */
-main {
-    /* Enlarge main element to push footer down*/
-    flex: 1 0 auto;
-    /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 47px;
-    /* Enable flex properties for child elements */
-    display: flex;
-    flex-direction: column;
-}
