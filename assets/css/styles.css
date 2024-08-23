@@ -108,6 +108,18 @@ a:hover {
     text-decoration: underline;
 }
 
+.published-by {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+    text-align: right;
+}
+
+.published-by strong {
+    color: #313336;
+}
+
+
 .divider {
     border: 0;
     height: 2px;
@@ -117,7 +129,10 @@ a:hover {
     box-sizing: border-box;
 }
 
-
+.article-section h2 {
+    border: 2px solid rgb(36, 42, 48);
+   margin-top: 280px; 
+}
 
 blockquote {
     font-style: italic;
@@ -231,7 +246,7 @@ input[type="text"], input[type="email"], input[type="password"] {
 
 button[type="submit"] {
     width: 100%; /* Make the button span the full width */
-    background: #007bff;
+    background: #272d35;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -241,7 +256,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background: #0056b3;
+    background: #96b2bb;
 }
 
 /* Responsive Styles */
