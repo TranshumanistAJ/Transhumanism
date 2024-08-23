@@ -197,6 +197,11 @@ footer {
     font-size: 1.2em;
 }
 
+#about {
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+
 /* Specific Styles for gallery.html */
 .gallery-container {
     display: flex;
