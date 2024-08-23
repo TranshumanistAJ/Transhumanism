@@ -3,54 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!--meta tags for search engine-->
-    <meta name="description"  content="transhumanism-longevity in Germany, immortality, Eternity">
-    <meta name="keywords" content="transhuamnism and longevity, immortality, afterdeath, Transhumanism in Germany">
-    <title>Transhumanism and Longevity</title>
+    <meta name="description" content="Transhumanism and Longevity - Home">
+    <meta name="keywords" content="transhumanism, longevity, technology, human enhancement">
+    <title>Transhumanism and Longevity - Home</title>
     <link rel="stylesheet" href="assets/css/styles.css">
-    <style>
-        /* Internal style for smooth scrolling and faster access, inspired by my mentor Tim  */
-        html {
-            scroll-behavior: smooth;
-        }
-        /*  This section of style below is inspired by AI */
-        .read-more-button {
-            display: inline-block;
-            padding: 10px 20px;
-            font-size: 16px;
-            font-weight: bold;
-            text-decoration: none;
-            color: #fff;
-            background-color: #7ca2b1;
-            border-radius: 4px;
-            transition: background-color 0.3s ease, transform 0.3s ease;
-            margin-top: 20px; /* Space above the button . I changed the space */
-            text-align: center;
-            margin-left: 65%; /* Use the precentage to make it responsive to all devices */
-        }
-
-        .read-more-button:hover {
-            background-color: #0056b3;
-            transform: translateY(-2px); /* Slight lift effect, inspired by AI */
-        }
-    </style>
 </head>
 <body>
-    <!--This header is the official name of the website, and internal links with an image-->
     <header>
         <nav class="top-right-nav">
             <ul>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="signup.html">Sign Up</a></li>
                 <li><a href="index.html">Home</a></li>
-
+                <li><a href="signup.html">Sign Up</a></li>
             </ul>
         </nav>
         <h1>Transhumanism and Longevity</h1>
-        <nav>
+        <nav class="main-nav">
             <ul>
-                <!--shortcut navigator to different elements of the same page-->
-                <li><a href="#home">Home</a></li>
+                
                 <li><a href="#about">About</a></li>
                 <li><a href="#articles">Articles</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -60,89 +29,70 @@
     </header>
     
     <main>
-        <!-- This section is to show a first impression of what to expect to find in this website -->
-        <section id="home">
+        <section id="home" class="hero">
             <h2>Welcome</h2>
-            <p class="welcome-text">Welcome to our website dedicated to exploring the fascinating world of transhumanism and longevity. Here, you'll find the latest research, articles, and insights into how technology is pushing the boundaries of human potential. Our goal is to provide you with comprehensive information and resources to help you understand and engage with these cutting-edge advancements. We believe that through knowledge and innovation, we can unlock the secrets to extending human life and enhancing our capabilities.</p>
+            <p>Welcome to our website dedicated to exploring the fascinating world of transhumanism and longevity. Here, you'll find the latest research, articles, and insights into how technology is pushing the boundaries of human potential.</p>
         </section>
-        <section id="articles">
+        <hr class="divider">
+        <section id="articles" class="article-section">
             <h2>Articles</h2>
-            <p class="section-text">Discover in-depth articles on various topics related to transhumanism, including gene editing, nanotechnology, artificial intelligence, and more. Our articles are written by experts in the field and provide valuable insights into the future of human enhancement. Stay informed and explore the possibilities of a future where technology and biology converge to create a better world.</p>
-            <a href="#more-articles" class="read-more-button">Read more...</a>
-        
+            <p>Discover in-depth articles on topics related to transhumanism. Our articles are written by experts and offer insights into human enhancement. Explore the possibilities where technology and biology converge. We publish weekly articles highlighting different aspects of Transhumanism and Longevity and to enrich ourselves and enhance our knowledge. Each article delves into the latest research, emerging technologies, and philosophical debates, providing a comprehensive view of how these fields are shaping our future. Stay informed about groundbreaking advancements and their implications for humanity’s evolution. Join us on this intellectual journey to better understand the frontier where science meets the human condition.</p>
+            <a href="articles.html" class="read-more-button">Read more...</a>
         </section>
-        <!--This unique section is a nice touch to remind the user to appreciate what we already have as human beings-->
+        <hr class="divider">
+
         <section id="quote">
             <blockquote>
                 "The key to immortality is first living a life worth remembering."
                 <cite>- Ray Kurzweil</cite>
             </blockquote>
         </section>
-        <section id="public-target">
-            <h2>Learn More</h2>
+        <hr class="divider">
+        <section id="public-target" class="article-grid">
             <div class="article">
-                <img src="assets/images/aj103.jpg" alt="What is Transhumanism">
+                <img src="assets/images/aj103.jpg" alt="What is Transhumanism" class="article-image">
                 <h3>What is Transhumanism?</h3>
-                <p>Transhumanism is a philosophical movement that advocates for the transformation of the human condition through advanced technologies.</p>
-                <a href="page2.html#full-definition" class="read-more">Coming Soon...</a>
+                <p>Transhumanism advocates for transforming the human condition through advanced technologies.</p>
+                <p class="read-more">Coming Soon...</p>
             </div>
             <div class="article">
-                <img src="assets/images/is-it-possible.jpg" alt="Is it Possible?">
+                <img src="assets/images/is-it-possible.jpg" alt="Is it Possible?" class="article-image">
                 <h3>Is it Possible?</h3>
-                <p>Explore the scientific advancements that are making the once impossible dreams of transhumanism a reality.</p>
-                <a href="#is-it-possible" class="read-more">Coming Soon...</a>
+                <p>Explore scientific advancements making the dreams of transhumanism a reality.</p>
+                <p class="read-more">Coming Soon...</p>
             </div>
             <div class="article">
-                <img src="assets/images/will-we-lose-our-humanity.jpg" alt="Will We Lose Our Humanity?">
+                <img src="assets/images/will-we-lose-our-humanity.jpg" alt="Will We Lose Our Humanity?" class="article-image">
                 <h3>Will We Lose Our Humanity?</h3>
-                <p>Delve into the ethical challenges and debates surrounding the pursuit of transhumanism and its impact on our humanity.</p>
-                <a href="#ethical-challenges" class="read-more">Coming Soon...</a>
+                <p>Examine the ethical challenges surrounding transhumanism.</p>
+                <p class="read-more">Coming Soon...</p>
             </div>
             <div class="article">
-                
-                <img src="assets/images/latest-news.jpg" alt="Latest News">
+                <img src="assets/images/latest-news.jpg" alt="Latest News" class="article-image">
                 <h3>Latest News</h3>
-                <p>Stay updated with the latest news and breakthroughs in the field of transhumanism and longevity.</p>
-                <a href="#latest-news" class="read-more">Coming Soon...</a>
+                <p>Stay updated with breakthroughs in transhumanism and longevity.</p>
+                <p class="read-more">Coming Soon...</p>
             </div>
         </section>
-        <!--This section is to directly emphisize why we created this website and what our intentions are -->
+        <hr class="divider">
         <section id="about">
             <h2>About</h2>
-            <p class="section-text">Our mission is to educate and inform the public about the advancements in transhumanism and longevity. We aim to provide a comprehensive understanding of how these technologies can enhance human life. By bridging the gap between science and society, we hope to inspire a new generation of thinkers and innovators who will continue to push the boundaries of what is possible.</p>
-        </section>
-        <!--This section is for inquires or further questions as we are open for any philosophical, scientific or atheical questions -->
+            <p>Our mission is to educate the public about advancements in transhumanism and longevity. We aim to provide a comprehensive understanding of these technologies and inspire innovation. By offering detailed analyses and insights into the latest breakthroughs, we strive to demystify complex concepts and make cutting-edge knowledge accessible to everyone. Our goal is to foster informed discussions and encourage the exploration of new ideas that push the boundaries of human potential. Through our content, we seek to ignite curiosity, promote critical thinking, and contribute to a broader dialogue about the future of humanity in the age of technological transformation. Join us as we navigate the exciting possibilities and challenges that lie ahead.</p></section>
+        <hr class="divider">
         <section id="contact">
             <h2>Contact</h2>
-            <!--clickable email inspired by a friends of mine and AI-->
-            <p class="section-text">For questions or inquires: <a href="mailto:https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjMlqWW7IOIAxXInoMHHS5RFd8YABAAGgJlZg&co=1&ase=2&gclid=CjwKCAjw_ZC2BhAQEiwAXSgClmuqbcEjqWfKGsZOtALNZTb8Z8VYg0zxNMyc0sCyFvramTpZful6ZhoClR4QAvD_BwE&ohost=www.google.com&cid=CAESVeD29rCACAyaGOFRl5FeIqZnWn2_exgTW4WXIAHdc9Lsxl0Y881EEeptcZuKmWKhxeZXPAKXAcF7WSl-q_O5egZzhV5VlsM8AFN5k1CANWL05zByOS8&sig=AOD64_3vqds20iAc27es9aPwNw4bTGdE2w&q&nis=4&adurl&ved=2ahUKEwifxp-W7IOIAxUTi_0HHQQeJn8Q0Qx6BAgWEAE">codeinstitute.com</a></p>
+            <p>If you have any questions or inquiries regarding our content, mission, or any other aspect of our website, please feel free to get in touch with us. We are always happy to hear from our readers and will do our best to provide you with the information you need. Whether you're curious about specific articles, have suggestions for future topics, or simply want to engage in a discussion about transhumanism and longevity, don't hesitate to reach out <a href="mailto:AJDeutschland103@hotmail.com">AJDeutschland103@hotmail.com</a></p>
         </section>
     </main>
-    <!--This footer contains site information, copyright notice, and social media links, css is embedded for faster access to save time-->
+    
     <footer>
-       
         <p>© 2024 Transhumanism and Longevity</p>
         <ul class="social-links">
-            <li>
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Follow Us on Facebook (Opens in a new tab)">
-                    <i class="fa-brands fa-facebook"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://x.com/" target="_blank" rel="noopener" aria-label="Follow Us on X (Opens in a new tab)">
-                    <i class="fa-brands fa-x-twitter"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Follow Us on YouTube (Opens in a new tab)">
-                    <i class="fa-brands fa-youtube"></i>
-                </a>
-            </li>
+            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Follow Us on Facebook"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://x.com/" target="_blank" rel="noopener" aria-label="Follow Us on X"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Follow Us on YouTube"><i class="fa-brands fa-youtube"></i></a></li>
         </ul>
     </footer>
-    
-    
-    <!--Font awesome Kit-->
     <script src="https://kit.fontawesome.com/adfe5b39e4.js" crossorigin="anonymous"></script>
 </body>
 </html>
