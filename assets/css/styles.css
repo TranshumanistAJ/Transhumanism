@@ -1,7 +1,7 @@
-/* General Styles */
+/* General Styles, a nice organized start*/
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
+    font-family: Arial, sans-serif; /*The most popular and inspired by an example from W3Schools*/
+    margin: 0; /* margin and padding with the value zero is the basic structure for a good webpage, it allows me to be able to specify any elements later with no extra work*/
     padding: 0;
     box-sizing: border-box;
     background-color: #f9f9f9;
@@ -9,10 +9,10 @@ body {
 }
 
 header {
-    background: #333;
+    background: #333; /*The colors of this header seem attractive to the eye sight and intuitively suitable for such topic*/
     color: white;
     padding: 20px;
-    text-align: center;
+    text-align: center; /*The most suitable position for a header */
     position: relative;
 }
 
@@ -29,12 +29,12 @@ nav {
 }
 /* Divider Styles */
 .divider {
-    border: none; /* Remove default border */
+    border: none; /* It is more fitting to remove default border */
     height: 7px; /* Set the height of the divider line */
     background-color: #ccc; /* Light gray background color for the line */
     margin: 40px 0; /* Add vertical spacing above and below the divider */
     width: 80%; /* Set the width of the divider */
-    max-width: 1200px; /* Optional: Restrict the maximum width of the divider */
+    max-width: 1200px; /* I wanted to restrict the maximum width of the divider */
     margin-left: auto; /* Center the divider */
     margin-right: auto; /* Center the divider */
 }
@@ -48,7 +48,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-block;
+    display: inline-block; /*inlines the links*/
     margin: 0 15px;
 }
 
@@ -59,7 +59,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ddd;
+    color: #ddd; /*This is optional but gives better user experience to color the hover*/
 }
 
 header .header-image, .hero img, .article-image, .gallery-item img {
@@ -77,7 +77,7 @@ main {
 }
 
 h2, h3 {
-    color: #333;
+    color: #333; /*general rules for h2 and h3 to alight the colors to the webpage*/
 }
 
 h2 {
@@ -105,43 +105,43 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /*general rule to better user experience to add an underline text decoration*/
 }
 
 .published-by {
-    margin-top: 20px;
+    margin-top: 20px; /*give space above the author and the hr*/
     font-size: 0.9em;
     color: #666;
     text-align: right;
 }
 
 .published-by strong {
-    color: #313336;
+    color: #313336; /*add boldness to the name of the author*/
 }
 
 
 .divider {
     border: 0;
     height: 2px;
-    background: #110e0e;
+    background: #110e0e; /*adds color to the hr to align it with the webpage general colors*/
     width: 100%;
     margin: 50px 0;
-    box-sizing: border-box;
+    box-sizing: border-box; /*to make it thick and box size it*/
 }
 
 .article-section h2 {
-    border: 2px solid rgb(36, 42, 48);
-   margin-top: 280px; 
+    border: 2px solid rgb(36, 42, 48); 
+   margin-top: 280px; /*adds space above the h2*/
 }
 
 blockquote {
-    font-style: italic;
+    font-style: italic; /* styles the font uniquely so that it gives the impression of a quote*/
     color: #555;
     padding: 10px;
     border-left: 5px solid #46596d;
     border-right: 5px solid #46596d;
     text-align: center;
-    margin-top: 160px ;
+    margin-top: 160px ; /*space above the quote to make it more noticible*/
   margin-bottom: 60px;
 }
 
@@ -164,12 +164,12 @@ footer {
     list-style: none;
     padding: 0;
     margin: 20px 0 0;
-    text-align: center; /* Ensure social links are centered */
+    text-align: center; /* to ensure social links are centered */
 }
 
 .social-links li {
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 10px; /* short for margin left and right*/
 }
 
 .social-links a {
@@ -179,7 +179,7 @@ footer {
 }
 
 .social-links a:hover {
-    color: #ddd;
+    color: #ddd; /*hovers the social media*/
 }
 
 /* Specific Styles for index.html */
@@ -227,7 +227,7 @@ footer {
 
 /* Specific Styles for signup.html */
 #signup {
-    max-width: 600px;
+    max-width: 600px; /*This is isnpired by a friend and the lesson Love Running*/
     margin: 0 auto;
     padding: 20px;
     background: white;
@@ -240,7 +240,7 @@ label {
     margin-bottom: 8px;
     font-weight: bold;
 }
-
+/*This is isnpired by a friend and the lesson Love Running*/
 input[type="text"], input[type="email"], input[type="password"] {
     width: 100%;
     padding: 10px;
@@ -248,7 +248,7 @@ input[type="text"], input[type="email"], input[type="password"] {
     border-radius: 4px;
     margin-bottom: 20px;
 }
-
+/*This is isnpired by a friend and the lesson Love Running*/
 button[type="submit"] {
     width: 100%; /* Make the button span the full width */
     background: #272d35;
@@ -264,7 +264,7 @@ button[type="submit"]:hover {
     background: #96b2bb;
 }
 
-/* Responsive Styles */
+/* Responsive Styles for all devices, this comment addresses them all*/
 @media (max-width: 768px) {
     nav ul {
         text-align: center;
@@ -347,11 +347,11 @@ button[type="submit"]:hover {
 }
 
 .article {
-    flex: 1 1 calc(25% - 20px); /* Flex-grow, flex-shrink, and flex-basis */
+    flex: 1 1 calc(25% - 20px); /* shortcut for Flex-grow, flex-shrink, and flex-basis */
     box-sizing: border-box; /* Ensure padding and border are included in width/height */
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow for depth. It is nice for better user experience*/
     background-color: #fff; /* Ensure background color for readability */
     padding: 10px; /* Padding for spacing within the article */
 }
