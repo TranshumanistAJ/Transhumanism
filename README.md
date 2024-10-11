@@ -17,6 +17,8 @@ The "Transhumanism and Longevity" website is dedicated to bridging the gap betwe
 
 ## Usage
 The project "Transhumanism and Longevity" is a simple website designed to provide information about transhumanism and its impact on human longevity. The website consists of three main HTML files: index.html, signup.html, and articles.html.
+
+_____
 ## Responsiveness:
 ![Responsive to all devices](assets/images/very-responsive.jpeg)
 
