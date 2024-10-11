@@ -20,7 +20,7 @@ The project "Transhumanism and Longevity" is a simple website designed to provid
 ## Responsiveness:
 ![Responsive to all devices](assets/images/very-responsive.jpeg)
 
-### I made sure it is responsive to all devices.
+ I made sure it is responsive to all devices.
 ##### I tested it and found no errors:
 1: https://jigsaw.w3.org/css-validator/validator?uri=https://transhumanistaj.github.io/Transhumanism
 ![Screnshot_for_CSS](assets/images/css_validator_screenshot.jpeg)
@@ -33,6 +33,21 @@ The project "Transhumanism and Longevity" is a simple website designed to provid
 
 4:https://validator.w3.org/nu/?doc=https://transhumanistaj.github.io/Transhumanism/articles.html
 ![Screenshot_for_articles.hmtl](assets/images/articles_html_validator_screenshot.jpeg)
+
+## **Responsive Testing**
+- Tested on iPhone 12, Samsung Galaxy S10, and iPad Mini.
+- Used Chrome DevTools to simulate different screen sizes (mobile, tablet, desktop).
+- Verified that elements adjusted correctly (text resizing, images scaling, layouts changing).
+
+## **Manual Testing**
+- I made sure to check the functionality by hand as follows:
+
+1: Clicked all links to ensure they navigate correctly.
+ 
+ 2: Filled out and submitted forms to check for proper handling and validation.
+ 
+ 3: Tested site on multiple browsers (Chrome, Firefox, Edge) to ensure consistent behavior.
+
 
 ### Navigation
 - *Home*: The index.html file serves as the homepage. It includes a navigation bar with links to the Home page, Articles page, and Sign Up page. Under the welcome section, In the middle of the page, we have a quote by Ray Kurzweil to demonstrate that we have to life a life worth remembering. right below it we have 
@@ -74,20 +89,6 @@ This website was deployed on GitHub Pages. The following procedure was followed 
 - A message is then displayed to indicate a successful deployment to GitHub pages, and provides a live link once it has finished fully deploying
 
 The live link to the fully deployed website can be found here: [***https://transhumanistaj.github.io/Transhumanism/index.html***](https://emmacadavra.github.io/ci-portfolio1-spc/)
-
-## **Responsive Testing**
-- Tested on iPhone 12, Samsung Galaxy S10, and iPad Mini.
-- Used Chrome DevTools to simulate different screen sizes (mobile, tablet, desktop).
-- Verified that elements adjusted correctly (text resizing, images scaling, layouts changing).
-
-## **Manual Testing**
-- I made sure to check the functionality by hand as follows:
-
-1: Clicked all links to ensure they navigate correctly.
- 
- 2: Filled out and submitted forms to check for proper handling and validation.
- 
- 3: Tested site on multiple browsers (Chrome, Firefox, Edge) to ensure consistent behavior.
 
 ## **Bugs**
 - Issue : The website in its entirety was not responsive to all devices.
